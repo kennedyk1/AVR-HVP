@@ -1,0 +1,214 @@
+{
+  "uuid": "9b9fe179d4a9e01f1e51da5407a25def",
+  "path": "Offline/HVP board",
+  "name": "HVP board",
+  "content": "",
+  "created_at": "2020-12-09 12:34:27",
+  "updated_at": "2020-12-10 19:18:10",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "27b33ce7e9d7de51f26c132b972b9702",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "36628af0fe3849a2f482991ed56c81b7": 2,
+        "3c5d240ed7864b92b830f44878d565b4": 1,
+        "1e7eb2db693e2a0d7a73b6dae4eea91c": 4,
+        "4160acdcbf3c44b7857840e3de817f0d": 1,
+        "76d1280f2be942b4a7894b917959b68f": 1,
+        "66af18936bfb4ae681237ca5f206881c": 2,
+        "4a960db02d2d4056876c2047487c448b": 1,
+        "96f8eb994b5d46d4b3ac2f63228f2c82": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "390R",
+          2,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R3,R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CFR0W4J0472A50",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Supplier Part": "C61297",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "1e7eb2db693e2a0d7a73b6dae4eea91c"
+          }
+        ],
+        [
+          "1K",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CFR0W4J0472A50",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Supplier Part": "C61297",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "1e7eb2db693e2a0d7a73b6dae4eea91c"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CFR0W4J0472A50",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Supplier Part": "C61297",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "1e7eb2db693e2a0d7a73b6dae4eea91c"
+          }
+        ],
+        [
+          "HV",
+          1,
+          "LED-TH_BD5.9-P2.54-FD",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C188721",
+            "BOM_Manufacturer": "Broadcom",
+            "BOM_Manufacturer Part": "HLMP-1719",
+            "puuid": "dc1f195b6e3e47da9b81c0e4a2a89f2b",
+            "uuid": "3c5d240ed7864b92b830f44878d565b4"
+          }
+        ],
+        [
+          "16MHZ",
+          1,
+          "HC-49S_L11.0-W4.6-P4.88",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C390745",
+            "BOM_Manufacturer": "JGHC",
+            "BOM_Manufacturer Part": "49SAC16000202060",
+            "puuid": "11ecf094a4db4c18b3c1811c94437918",
+            "uuid": "4a960db02d2d4056876c2047487c448b"
+          }
+        ],
+        [
+          "15pF",
+          2,
+          "CAP-TH_L5.5-W2.0-P5.00-D1.0",
+          "C2,C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C260719",
+            "BOM_Manufacturer": "Songtian Elec",
+            "BOM_Manufacturer Part": "L06S1B150KN0B0S0N0",
+            "puuid": "ab2032653c7948d0ac85790064a19880",
+            "uuid": "66af18936bfb4ae681237ca5f206881c"
+          }
+        ],
+        [
+          "POWER",
+          1,
+          "HDR-TH_5P-P2.54-V",
+          "H1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2.54mm 1*5p Female header",
+            "BOM_Supplier Part": "C50950",
+            "puuid": "bb9c6c8fa19b477099719a0996c07c32",
+            "uuid": "76d1280f2be942b4a7894b917959b68f"
+          }
+        ],
+        [
+          "12V",
+          1,
+          "HDR-TH_2P-P2.54-V",
+          "H2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C168673",
+            "BOM_Manufacturer": "Amphenol ICC",
+            "BOM_Manufacturer Part": "68000-102HLF",
+            "puuid": "7ae61b24ec5d431087f34ea7cfebbd9e",
+            "uuid": "96f8eb994b5d46d4b3ac2f63228f2c82"
+          }
+        ],
+        [
+          "2N2222A",
+          1,
+          "TO-92-3_L4.8-W3.7-P2.54-R",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C358533",
+            "BOM_Manufacturer": "Foshan Blue Rocket Elec",
+            "BOM_Manufacturer Part": "2N2222A",
+            "puuid": "d759540c89844d9986051022192fcef6",
+            "uuid": "4160acdcbf3c44b7857840e3de817f0d"
+          }
+        ],
+        [
+          "ATMEGA328P-PU",
+          2,
+          "DIP-28_L34.6-W7.3-P2.54-LS10.2-BL",
+          "U2,U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP",
+            "BOM_Manufacturer Part": "ATMEGA328P-PU",
+            "BOM_Supplier Part": "C33901",
+            "puuid": "2f1d96128ab94db491eae99d61bfb39c",
+            "uuid": "36628af0fe3849a2f482991ed56c81b7"
+          }
+        ]
+      ],
+      "updateTime": 1607620790,
+      "createTime": 1607524956,
+      "histories": [],
+      "created_at": "2020-12-09 12:42:36",
+      "updated_at": "2020-12-10 15:19:50"
+    },
+    {
+      "uuid": "76f4979b5e66c004dd89ad6901851ff9",
+      "puuid": "9b9fe179d4a9e01f1e51da5407a25def",
+      "title": "PCB_2020-12-10_15-15-46",
+      "filename": "PCB_2020-12-10_15-15-46.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "666264fd42b84465ad050a9517cab8cf": 4,
+        "dc1f195b6e3e47da9b81c0e4a2a89f2b": 1,
+        "11ecf094a4db4c18b3c1811c94437918": 1,
+        "ab2032653c7948d0ac85790064a19880": 2,
+        "bb9c6c8fa19b477099719a0996c07c32": 1,
+        "d759540c89844d9986051022192fcef6": 1,
+        "2f1d96128ab94db491eae99d61bfb39c": 2,
+        "7ae61b24ec5d431087f34ea7cfebbd9e": 1
+      },
+      "BOM": [],
+      "updateTime": 1607635090,
+      "createTime": 1607620546,
+      "histories": [],
+      "created_at": "2020-12-10 15:15:46",
+      "updated_at": "2020-12-10 19:18:10"
+    }
+  ],
+  "sort": [],
+  "title": "HVP board",
+  "foldername": "HVP board",
+  "schfilename": "HVP board.json",
+  "schfilemtime": 1607620790435
+}
